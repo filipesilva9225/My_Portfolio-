@@ -14,13 +14,13 @@
           <a href="#inicio" class="menu-link">Início</a>
         </li>
         <li>
-          <a href="sobre" class="menu-link">Sobre</a>
+          <a href="#sobre" class="menu-link">Sobre</a>
         </li>
         <li>
-          <a href="projetos" class="menu-link">Projetos</a>
+          <a href="#projetos" class="menu-link">Projetos</a>
         </li>
         <li>
-          <a href="contatos" class="menu-link">Contatos</a>
+          <a href="#contatos" class="menu-link">Contatos</a>
         </li>
       </ul>
     </nav>
@@ -87,7 +87,7 @@
 
     <section id="contatos" class="contatos">
       <h2 class="contatos-title">Entre em Contato</h2>
-      <form class="form-contato" id="form">
+      <form class="form-contato" id="form" onsubmit="enviarWhats(event)">
         <div class="grupo-form">
           <input placeholder="Nome" class="campo-form" id="nome" />
         </div>
